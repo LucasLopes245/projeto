@@ -1,0 +1,3 @@
+Fotografia original recebida: foto-principal.png.
+O site usa /images/foto-principal.png. Sem ela, aparece uma composição botânica provisória.
+Para usar outro arquivo, altere PHOTO_URL em src/config.js.
