@@ -52,7 +52,8 @@ export function PhotoLightbox({
   }
   return (
     <dialog
-      className="timeline-lightbox"
+      className={`timeline-lightbox${chapter.hideLightboxTitle ? " favorites-lightbox" : ""}`}
+      role="dialog"
       ref={dialogRef}
       aria-modal="true"
       aria-labelledby="lightbox-title"
@@ -66,7 +67,12 @@ export function PhotoLightbox({
       }}
     >
       <div className="lightbox-top">
-        <h2 id="lightbox-title">{chapter.title}</h2>
+        <h2
+          id="lightbox-title"
+          className={chapter.hideLightboxTitle ? "sr-only" : undefined}
+        >
+          {chapter.title}
+        </h2>
         <button
           type="button"
           className="gallery-icon-button"

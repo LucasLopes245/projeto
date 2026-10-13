@@ -5,7 +5,9 @@ export function photoUrl(path) {
 }
 export function PhotoImage({ chapter, index, className = "", onClick }) {
   const [failed, setFailed] = useState(false);
-  const alt = `${chapter.title} — foto ${index + 1} de ${chapter.images.length}`;
+  const alt = chapter.imageAltPrefix
+    ? `${chapter.imageAltPrefix} ${index + 1} de ${chapter.images.length}`
+    : `${chapter.title} — foto ${index + 1} de ${chapter.images.length}`;
   return failed ? (
     <div className="timeline-photo-error" role="status">
       Não foi possível carregar esta foto.

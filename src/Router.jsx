@@ -2,6 +2,9 @@ import { lazy, Suspense, useEffect, useState } from "react";
 import App from "./App.jsx";
 
 const Timeline = lazy(() => import("./components/Timeline/Timeline.jsx"));
+const FavoriteMoments = lazy(
+  () => import("./components/FavoriteMoments/FavoriteMoments.jsx"),
+);
 // Rotas hash permitem abrir e atualizar URLs diretamente no GitHub Pages.
 // A rota direta também permite revisar a timeline antes da data do aniversário.
 export default function Router() {
@@ -14,16 +17,19 @@ export default function Router() {
   useEffect(() => {
     if (hash === "#/") window.scrollTo({ top: 0, behavior: "instant" });
   }, [hash]);
-  if (hash === "#/timeline" || hash === "#/timeline/")
+  const isFavorites = hash === "#/favoritos" || hash === "#/favoritos/";
+  if (hash === "#/timeline" || hash === "#/timeline/" || isFavorites)
     return (
       <Suspense
         fallback={
           <p className="route-loading" role="status">
-            Carregando nossa linha do tempo…
+            {isFavorites
+              ? "Carregando momentos favoritos…"
+              : "Carregando nossa linha do tempo…"}
           </p>
         }
       >
-        <Timeline />
+        {isFavorites ? <FavoriteMoments /> : <Timeline />}
       </Suspense>
     );
   return <App />;

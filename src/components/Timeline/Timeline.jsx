@@ -4,6 +4,7 @@ import { Icon } from "../Icons.jsx";
 import { TimelineNavigation } from "./TimelineNavigation.jsx";
 import { TimelineChapter } from "./TimelineChapter.jsx";
 import "../../styles/timeline.css";
+import "../../styles/favorites.css";
 
 export default function Timeline() {
   const [selectedIndex, setSelectedIndex] = useState(null);
@@ -103,6 +104,17 @@ export default function Timeline() {
             />
           )}
         </div>
+        {selectedIndex === timeline.length - 1 && (
+          <section
+            className="favorites-continuation"
+            aria-label="Continuar nossa história"
+          >
+            <h2>Momentos favoritos</h2>
+            <a href="#/favoritos">
+              Continuar <span aria-hidden="true">→</span>
+            </a>
+          </section>
+        )}
       </main>
       <footer className="timeline-footer">
         <span>LUCAS & MICHELLY</span>
