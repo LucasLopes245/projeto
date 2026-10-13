@@ -18,12 +18,12 @@ export const timeline = [
   {
     ...chapter("comeco", "O começo de tudo", "O começo", "01-comeco", 3),
     description:
-      "Foi aqui que eu percebi que te amava de verdade e que queria te pedir em namoro. O único problema é que eu nunca tinha feito isso antes e não fazia a menor ideia de como começar KKKKK. Mesmo sem saber exatamente o que fazer, eu já sabia que queria tentar tudo isso com você.",
+      "Foi aqui que eu percebi que te amava de verdade e que queria te pedir em namoro. Eu nunca tinha feito isso antes e não fazia a menor ideia de como começar. Hoje eu acho graça desse meu nervosismo, mas também guardo muito carinho por ele: eu queria que fosse especial pra você. Mesmo sem saber direito como fazer o pedido, de uma coisa eu já tinha certeza: queria estar com você e descobrir, aos poucos, o que a gente poderia viver juntos.",
   },
   {
     ...chapter("pedido", "Dia do pedido", "O pedido", "02-pedido", 1, true),
     description:
-      "O dia em que eu me tremi todinho pra te levar pra comer sushi e depois deixar uma caixa em cima da cama KKKKKKK. Eu tava nervoso pra caramba, mas no fim deu tudo certo. E, olhando pra trás, foi facilmente uma das melhores decisões que eu já tomei.",
+      "O dia em que eu me tremi todinho pra te levar pra comer sushi e depois deixar uma caixa em cima da cama. Só eu sei o nervoso que passei pra executar esse plano aparentemente simples kkk. Eu queria muito que você gostasse e que aquele momento fosse uma lembrança boa pra nós dois. No fim, deu tudo certo. Olhando pra trás e pensando em tudo que a gente viveu desde então, te pedir em namoro foi uma das melhores decisões que eu já tomei.",
   },
   {
     ...chapter(
@@ -45,7 +45,7 @@ export const timeline = [
       1,
     ),
     description:
-      "Eu lembro desse dia com muito carinho porque foi quando você começou a se aproximar ainda mais da minha família. Você conheceu minhas tias malucas, sobreviveu a todas elas e, de alguma forma, continuou querendo fazer parte disso tudo KKKKK. Foi muito bom ver você entrando cada vez mais na minha vida.",
+      "Eu lembro desse dia com muito carinho porque foi quando você começou a se aproximar ainda mais da minha família. Você conheceu minhas tias malucas, sobreviveu a todas elas e ainda quis ficar por perto — o que eu considero uma bela prova de amor. Brincadeiras à parte, foi muito bom ter você ali e dividir esse Natal com você. Ver você fazendo parte desses momentos em família me deixou muito feliz. Eu quero que você se sinta querida e à vontade entre as pessoas que são importantes pra mim.",
   },
   {
     ...chapter(
@@ -56,7 +56,7 @@ export const timeline = [
       2,
     ),
     description:
-      "Esse dia marcou muito pra mim porque foi quando eu também comecei a me aproximar mais da sua família. Seu pai tentando me embebedar ajudou bastante nesse processo, inclusive KKKKK. Além disso, foi nosso primeiro Ano-Novo juntos e você estava bizarramente linda nesse dia. Sério, sem condições.",
+      "Esse dia marcou muito pra mim porque foi quando eu também comecei a me aproximar mais da sua família. Seu pai tentando me embebedar foi uma maneira bem particular de ajudar nessa aproximação. Mas o que eu guardo com mais carinho é ter passado nosso primeiro Ano-Novo ao seu lado e participado um pouquinho mais da sua vida. Gostei muito de começar o ano com você por perto. E você estava tão linda naquele dia que, mesmo agora, olhando as fotos, eu ainda fico meio sem saber o que dizer.",
   },
   {
     ...chapter(
@@ -68,7 +68,7 @@ export const timeline = [
       true,
     ),
     description:
-      "Esse foi, sem dúvida, um dos dias mais importantes de todos. Foi o encerramento de uma fase muito marcante da sua vida e praticamente o começo da sua carreira, depois de tudo que você viveu durante a faculdade. Ver você tão feliz naquele dia foi muito especial pra mim. E, além de tudo isso: obrigado, Deus, porque nesse dia você tava... NOSSA SENHORA.",
+      "Esse foi, sem dúvida, um dos dias mais importantes de todos. Depois de tudo que você viveu durante a faculdade, poder estar ao seu lado no encerramento dessa fase e no começo da sua carreira significou muito pra mim. Eu tenho muito orgulho de você e da sua dedicação, e foi muito especial te ver feliz, comemorando uma conquista tão sua. Quero estar por perto pra celebrar muitas outras e também pra te apoiar nos dias em que as coisas forem mais difíceis. E preciso manter registrado: você tava linda demais. NOSSA SENHORA.",
   },
   {
     ...chapter(
@@ -80,7 +80,7 @@ export const timeline = [
       true,
     ),
     description:
-      "Uma viagem meio às pressas pra gente ir ver o show de um DJ que você nem conhecia direito KKKKK. Mesmo assim, foi incrível. Foi muito bom viajar com você, viver algo diferente juntos e guardar mais uma história nossa. Espero que venham muitas outras e, só pra deixar registrado oficialmente: a próxima tem que ser só nós dois.",
+      "Uma viagem meio às pressas pra gente ir ver o show de um DJ que você nem conhecia direito. Ainda acho engraçado esse ter sido o motivo da nossa primeira viagem, mas fico muito feliz por você ter ido comigo. Foi muito bom sair um pouco da rotina, ter sua companhia e viver algo diferente juntos. Quando eu penso nessa viagem, é esse tempo com você que eu mais gosto de lembrar. Espero que venham muitas outras e já deixo aqui meu pedido: a próxima só nós dois, pra aproveitar bastante a companhia um do outro.",
   },
   {
     ...chapter("copa", "Nossa Primeira Copa", "Primeira Copa", "08-copa", 2),
