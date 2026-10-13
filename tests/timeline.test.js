@@ -30,7 +30,6 @@ test("Todas as fotos existem, começam em 1.jpg e seguem ordem numérica", () =>
   );
   for (const chapter of timeline) {
     assert.equal(chapter.date, "");
-    assert.equal(chapter.description, "");
     assert.equal(chapter.quote, "");
     chapter.images.forEach((path, index) => {
       assert.ok(path.endsWith(`/${index + 1}.jpg`));

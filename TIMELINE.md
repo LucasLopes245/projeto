@@ -21,7 +21,7 @@ Em `src/data/timeline.js`, `chapter(id, title, shortTitle, folder, count, featur
 
 Para adicionar uma foto, coloque o JPG seguinte na pasta da etapa e aumente `count`. Arquivos com outra extensão ou nomes não sequenciais podem ser cadastrados usando um array explícito em `images`, mantendo `1.jpg` em primeiro lugar.
 
-Para incluir datas e textos, substitua uma entrada por um objeto que expande `chapter` e preenche somente os campos desejados:
+As nove descrições oficiais estão no campo `description` de cada entrada em `src/data/timeline.js`. Para editá-las, altere somente essa string; o componente existente as mostra como um bloco abaixo da galeria. Datas e citações continuam vazias. Para incluir esses campos, use o mesmo objeto que expande `chapter`:
 
 ```js
 {
